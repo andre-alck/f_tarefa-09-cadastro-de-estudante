@@ -1,8 +1,8 @@
-import { Estudante } from './../estudante';
 import { Component, OnInit } from '@angular/core';
-import { EstudanteService } from '../estudante.service';
-import { MessageService } from '../message.service';
 
+import { EstudanteService } from '../shared/estudante.service';
+import { Estudante } from './../shared/estudante';
+import { MessageService } from './../shared/message.service';
 
 @Component({
   selector: 'app-estudantes',

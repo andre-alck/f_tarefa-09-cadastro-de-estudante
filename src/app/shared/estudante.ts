@@ -4,7 +4,6 @@ export interface Estudante {
   semestre: number;
   materia: string;
   nota: number;
-  id : number;
-  curso : string;
-  
+  id: number;
+  curso: string; 
 }

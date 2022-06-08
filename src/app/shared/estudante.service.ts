@@ -1,3 +1,5 @@
+import { Professor } from './professor';
+import { PROFESSORES } from './mock-professores';
 import { Estudante } from './estudante';
 import { Injectable } from '@angular/core';
 import { ESTUDANTES } from './mock-estudantes';
@@ -13,7 +15,14 @@ export class EstudanteService {
 
   getEstudantes(): Observable<Estudante[]> {
     const estudantes = of(ESTUDANTES);
-    this.messageService.add('Curso de ADS');
+    this.messageService.add('Alunos encontrados!');
     return estudantes;
   }
+
+  getProfessores(): Observable<Professor[]> {
+    const professores = of(PROFESSORES);
+    this.messageService.add('Professores encontrados!');
+    return professores;
+  }
+  
 }

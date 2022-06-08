@@ -1,18 +1,12 @@
-/* MessagesComponent's private CSS styles */
-h1 {
-  color: #0d6efd;
-}
-
 .clear {
-  color: #333;
+  color: rgba(51, 51, 51, 0.89);
   background-color: #eee;
   margin-bottom: 12px;
   padding: 1rem;
   border-radius: 4px;
-  font-size: 1rem;
 }
 
 .clear:hover {
   color: white;
-  background-color: #42545C;
+  background-color: #46606b;
 }
